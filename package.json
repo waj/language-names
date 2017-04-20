@@ -1,0 +1,29 @@
+{
+  "name": "language-names",
+  "version": "0.1.0",
+  "description": "Language names, written in each language",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node generate.js"
+  },
+  "author": "Juan Wajnerman",
+  "license": "ISC",
+  "files": [
+    "index.js",
+    "language-names.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waj/language-names.git"
+  },
+  "devDependencies": {
+    "cldr": "^4.2.0",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "iso-639-3": "^1.0.0"
+  }
+}
